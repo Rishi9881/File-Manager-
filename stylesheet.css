@@ -1,0 +1,412 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mainnav{
+    display: flex;
+    background-color: #FAF9F6;
+    align-items: center;
+    
+}
+
+
+.leftbutton{
+    display: flex;
+    background-color: #CCCCC8;
+    justify-content: center;
+    align-items: center;
+}
+.leftbutton button {
+    display: flex;
+    border: 0px;
+    background: none;
+    padding: 6px ;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+}
+.dropbnt,.questionbnt,.minus,.minimize,.crossbnt{
+    align-items: center;
+}
+
+.infoicon{
+    direction: flex;
+    margin-left: auto;
+    justify-content: center, space-between;
+    align-items: center;     
+}
+
+
+.righthand{
+    margin-left: auto;
+    justify-content: center , space-between;
+    align-items: center;
+    display: flex;
+    margin-left: auto;
+}
+
+.righthandicon{
+    display: flex;
+    margin-left: auto;
+    justify-content: center , space-between;
+    align-items: center;
+    
+}
+
+.righthandicon img{
+    padding: 0px 5px;
+    justify-content: center , space-between;
+    align-items: center;
+
+}
+
+.filebnt:hover{background-color: #7CC3DF;}
+.combnt:hover{background-color: #7CC3DF;}
+.viewbnt:hover{background-color: #7CC3DF;}
+
+
+.mainbar{
+    display: flex;
+    height: 40px;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+    
+    
+}
+.undo{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    padding-left: 5px;
+    
+}
+.localdetail{
+    display: flex;
+    padding-left: 20px;
+    gap: 25px;
+    align-items: center;
+
+    
+}
+
+.thispc{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    border-width: 1px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    width: 1300px;
+    height: 30px;
+    padding-left: 20px;
+    
+}
+
+.search {
+    display: flex;
+    margin-left: auto;
+    gap: 30px;
+    border-width: 1px;
+    border-style: none #ccc;
+    border-radius: 4px;
+    padding-right: 5px;
+
+    
+}
+input{
+    width: 300px;
+    height: 30px;
+    border: 0px  #ccc;
+   
+}
+
+.down2 {
+    margin-left: auto;
+    justify-content: flex-end;
+}
+
+.searchbtn{
+    padding-right: 10px;
+}
+
+.sidebar{
+    display: flex;
+}
+
+.leftcontent{
+    width: 250px;
+    padding: 10px;
+    background-color:  #eeeeee;
+    height: 91vh;
+    box-shadow: 5px 0px 5px gray
+}
+.quickacess,.desktop,.download,.document,.picture,.micro,.cloudy,.computer2,.network{
+    padding-top: 18px;
+    padding-bottom: 18px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    transition: all 0.5s ease;
+    margin: 10px;
+}
+.desktop,.download,.document,.picture{
+    padding-left: 40px;
+}
+.main-content{
+    flex-grow: 2; 
+    padding-left: 15px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+   
+}
+.folder2{
+    display: flex;
+    align-items: center;
+    padding-top: 28px;
+    
+    
+}
+.folder2 > img{align-items: center;justify-content: center;}
+
+.mainfolder{
+    display: flex;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 45px;
+    align-items: center;
+    gap: 300px;
+    padding-right: 200px;
+    
+
+}
+.secrow{
+    display: flex;
+    padding-top: 25px;
+    padding-bottom: 40px;
+    padding-left: 45px;
+    align-items: center;
+    padding-right: 200px;
+    margin-right: auto;
+    gap: 300px;
+    
+}
+.folder3{
+    display: flex;
+    align-items: center;
+    padding-top: 40px
+}
+
+
+.disk1strow{
+    display: flex;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 45px;
+    align-items: center;
+    padding-right: 200px;
+    margin-right: auto;
+    gap: 260px 260px;
+}
+ 
+.diskE{
+    margin-left: 50px;
+}
+
+.lastdisk{
+    display: flex;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 45px;
+    margin-right: auto;
+    gap: 260px ;
+
+}
+.quickacess:hover{
+    background-color: #7DF9FF ;
+    border-radius: 30px;
+    padding: 12px;
+    transition-duration: 0.5s ;
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.76);
+}
+
+.desktop:hover{
+    border-radius: 30px;
+    padding: 12px;
+    transition-duration: 0.5s ;
+}.download:hover{
+    border-radius: 30px;
+    padding: 12px;
+    transition-duration: 0.5s ;
+}.document:hover{
+    border-radius: 30px;
+    padding: 12px;
+    transition-duration: 0.5s ;
+}.picture:hover{
+    border-radius: 30px;
+    padding: 12px;
+    transition-duration: 0.5s ;
+}.micro:hover{
+    border-radius: 30px;
+    padding: 12px;
+    transition-duration: 0.5s ;
+    background-color: #7DF9FF ;
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.76);
+}.cloudy:hover{
+    border-radius: 30px;
+    padding: 12px;
+    transition-duration: 0.5s ;
+    background-color: #7DF9FF ;
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.76);
+}.computer2:hover{
+    border-radius: 30px;
+    padding: 12px;
+    transition-duration: 0.5s ;
+    background-color: #7DF9FF ;
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.76);
+}.network:hover{
+    border-radius: 30px;
+    padding: 12px;
+    transition-duration: 0.5s ;
+    background-color: #7DF9FF;
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.76);
+}.left:hover{background-color: #dbdbdbfd; border-radius: 50px; padding: 1px;}
+.right:hover{background-color: #dbdbdbfd; border-radius: 50px; padding: 1px;}
+.godown:hover{background-color: #dbdbdbfd; border-radius: 50px; padding: 1px;}
+.laptop:hover{background-color: #dbdbdbfd; border-radius: 50px; padding: 3px;}
+
+.lastpart{
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+
+
+.desktop12,.docu,.downl,.music,.setting2,.disk,.diskE,.diskc{
+    transition: all 0.5s ease;
+    display: flex;
+    align-items: center;
+}
+
+.desktop12:hover{
+    background-color: #7DF9FF;
+    transition-duration: 0.5s;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.76);
+}
+.docu:hover{
+    background-color: #7DF9FF;
+    transition-duration: 0.5s;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.76);
+}
+.downl:hover{
+    background-color: #7DF9FF;
+    transition-duration: 0.5s;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.76);
+}
+.music:hover{
+    background-color: #7DF9FF;
+    transition-duration: 0.5s;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.76);
+}
+.setting2:hover{
+    background-color: #7DF9FF;
+    transition-duration: 0.5s;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.76);
+}
+.disk:hover{
+    background-color: #7DF9FF;
+    transition-duration: 0.5s;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.76);
+}
+.diskE:hover{
+    background-color: #7DF9FF;
+    transition-duration: 0.5s;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.76);
+}
+.diskc:hover + .dp-content {
+    display: block;
+    transition-duration: 0.5s;
+     align-items: center;
+    text-align: center;
+    justify-content: center;
+
+}
+.dp-content {
+    display: none ;
+    padding: 10px;
+    width: 175px;
+    margin-top: 15px;
+    align-items: center;
+    justify-content: center;
+    background: hsla(0, 81%, 48%, 0.603);
+    border-radius: 20px;
+    position: absolute;
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.76);
+    transition: all 0.5s ease;
+}
+.dp-content a{
+    padding: 5px;
+    display: block;
+    text-decoration: none;
+    color: black;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    
+   
+}
+.diskc:hover{
+    display: flex;
+    background-color: #7DF9FF;
+    transition-duration: 0.5s;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.76);
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.sdimg{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
